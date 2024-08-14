@@ -1,4 +1,4 @@
-favorite_languages = {
+"""favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
     'edward': 'ruby',
@@ -10,4 +10,20 @@ for name in favorite_languages.keys():
 
 for language in favorite_languages.values():
     print(language)
+"""
+
+"""favorite_languages = {'jen': 'python',
+                      'sarah': 'c',
+                      'edward': 'ruby',
+                      'phil': 'python',}
+
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+    print(f"Hi {name.title()}.")
+
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}.")"""
+
+
 

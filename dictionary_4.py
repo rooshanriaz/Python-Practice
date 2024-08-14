@@ -18,7 +18,7 @@ favorite_languages = {'jen': 'python',
                       'edward': 'ruby',
                       'phil': 'python',}
 
-friends = ['phil', 'sarah']
+"""friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
     print(f"Hi {name.title()}.")
 
@@ -27,5 +27,13 @@ for name in favorite_languages.keys():
         print(f"\t{name.title()}, I see you love {language}.")
 
 if 'erin' not in favorite_languages.keys():
-    print("Erin, please take our poll.")
+    print("Erin, please take our poll.")"""
+
+"""for name in sorted(favorite_languages.keys()):
+    print(f"{name.title()}, thank you for taking the poll.")"""
+
+"""print("The following languages have been mentioned:")
+for lanugage in favorite_languages.values():
+    print(lanugage.title())"""
+
 

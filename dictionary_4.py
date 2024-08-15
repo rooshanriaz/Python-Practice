@@ -98,3 +98,25 @@ for name, languages in favorite_languages.items():
     for lanugage  in languages:
         print(f"{lanugage}")"""
 
+"""users = {
+    'aeinstein' : {
+        'first_name' : 'albert',
+        'last_name' : 'einstein',
+        'location' : 'princeton',
+    },
+    'mcurie': {
+     'first_name' : 'marie',
+     'last_name' : 'curie',
+     'location' : 'paris',
+    },
+
+}
+
+for username, userinfo in users.items():
+    print(f"\n Username: {username}")
+    full_name = f"{userinfo['first_name']} {userinfo['last_name']}"
+    location = userinfo['location']
+
+    print(f"\t Full Name: {full_name.title()}")
+    print(f"\t Location: {location.title()}")"""
+

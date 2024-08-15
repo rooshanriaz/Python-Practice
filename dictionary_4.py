@@ -224,3 +224,23 @@ fruits = ['apple', 'banana', 'mango']
 for x in adj:
     for y in fruits:
         print(x, y)"""
+
+"""list = ['eat', 'sleep', 'repeat']
+for count, ele in enumerate(list):
+    print(count, ele)"""
+"""for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)"""
+"""for letter in "geeks for geeks":
+    if letter == 'e' or letter == 's':
+        continue
+    print('Current letter',letter)"""
+"""clothes = ['shirts', 'sock', 'pants', 'sock', 'towel']
+paired_socks = []
+for item in clothes:
+    if item == 'sock':
+        continue
+    else:
+        print(f"Washing {item}")
+paired_socks.append('socks')
+print(f'Washing {paired_socks}')"""

@@ -12,11 +12,10 @@ for language in favorite_languages.values():
     print(language)
 """
 
-
-favorite_languages = {'jen': 'python',
+"""favorite_languages = {'jen': 'python',
                       'sarah': 'c',
                       'edward': 'ruby',
-                      'phil': 'python',}
+                      'phil': 'python',}"""
 
 """friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
@@ -86,4 +85,16 @@ print(f"You ordered a {pizza['crust']}- crust pizza with the following toppings:
 
 for topping in pizza['toppings']:
     print(f"\t{topping}")"""
+
+"""favorite_languages = {
+    'jen': ['python', 'rust'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell']
+}
+
+for name, languages in favorite_languages.items():
+    print(f"\n {name.title()} favorite languages are:")
+    for lanugage  in languages:
+        print(f"{lanugage}")"""
 

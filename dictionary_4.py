@@ -154,13 +154,19 @@ print(merge_dict)"""
 print(sampleDict['class']['student']['marks']['History'])
 """
 
-sampleDict = {
+"""sampleDict = {
     'name': 'Kelly',
     'age': 25,
     'salary': 8000,
     'city': 'New York'
 }
 
+keys = ['name', 'salary']
+
+for k in keys:
+   sampleDict.pop(k)
+
+print(sampleDict)"""
 """keys = ['name', 'salary', 'city']
 
 res = dict()
@@ -168,3 +174,9 @@ res = dict()
 for k in keys:
     res.update({k: sampleDict[k]})
 print(res)"""
+"""sample_dict = {'a': 100, 'b': 200, 'c': 300}
+
+if 200 in sample_dict.values():
+    print("200 is present in the dictionary")"""
+
+

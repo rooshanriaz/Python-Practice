@@ -9,3 +9,12 @@ prompt += "\n What is your first name ?"
 name = input(prompt)
 
 print(f"\n Hello, {name}")"""
+
+"""height = input("How tall are you, in inches?")
+height = int(height)
+
+if height >= 48:
+    print("\n You are tall enough to ride.")
+else:
+    print("\n You'll be able to ride when you'are a little older.")"""
+

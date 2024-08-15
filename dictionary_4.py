@@ -120,3 +120,51 @@ for username, userinfo in users.items():
     print(f"\t Full Name: {full_name.title()}")
     print(f"\t Location: {location.title()}")"""
 
+"""keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+
+#rest_dict = dict(zip(keys, values))
+
+#print(rest_dict)
+
+res_dict = dict()
+
+for i in range(len(keys)):
+    res_dict.update({keys[i]: values[i]})
+
+print(res_dict)"""
+
+"""dict1 = {'Ten' : 10, 'Twenty' : 20, 'Thirty' : 30}
+dict2 = {'Thirty' : 30, 'Fourty' : 40, 'Sixty' : 60}
+
+merge_dict = {**dict1, **dict2}
+print(merge_dict)"""
+
+"""sampleDict = {
+    'class': {
+        'student': {
+            'name': 'Mike',
+            'marks': {
+                'Physics': 70,
+                'History': 80,
+            }
+        }
+    }
+}
+print(sampleDict['class']['student']['marks']['History'])
+"""
+
+sampleDict = {
+    'name': 'Kelly',
+    'age': 25,
+    'salary': 8000,
+    'city': 'New York'
+}
+
+"""keys = ['name', 'salary', 'city']
+
+res = dict()
+
+for k in keys:
+    res.update({k: sampleDict[k]})
+print(res)"""

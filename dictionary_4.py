@@ -192,13 +192,35 @@ print(sample_dict)"""
                'History': 80,
                'Maths': 75}"""
 
-sample_dict = {
+"""sample_dict = {
     'emp1': {'name': 'Jhon', 'salary': 7500},
     'emp2': {'name': 'Emma', 'salary': 8000},
     'emp3': {'name': 'Brad', 'salary': 2000}
 }
 
 sample_dict['emp3']['salary'] = 3000
-print(sample_dict)
+print(sample_dict)"""
 
+fruits = ['apple', 'banana', 'mango']
+"""for fruit in fruits:
+    print(fruit)"""
 
+"""for x in 'banana':
+    print(x)"""
+"""for x in fruits:
+    if x == 'banana':
+        continue
+    print(x)"""
+"""for x in range(6):
+    if x == 3:
+        break
+        print(x)
+    else:
+        print('Finally Finished')"""
+
+"""adj = ['red', 'big', 'tasty']
+fruits = ['apple', 'banana', 'mango']
+
+for x in adj:
+    for y in fruits:
+        print(x, y)"""

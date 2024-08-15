@@ -11,6 +11,7 @@ for name in favorite_languages.keys():
 for language in favorite_languages.values():
     print(language)
 """
+from random import sample
 
 """favorite_languages = {'jen': 'python',
                       'sarah': 'c',
@@ -178,5 +179,26 @@ print(res)"""
 
 if 200 in sample_dict.values():
     print("200 is present in the dictionary")"""
+
+"""sample_dict = {"name": "kelly",
+               "age": 25,
+               "salary": 8000,
+               "city": "New York"}
+
+sample_dict['location'] = sample_dict.pop('city')
+print(sample_dict)"""
+
+"""sample_dict = {'Physics': 82,
+               'History': 80,
+               'Maths': 75}"""
+
+sample_dict = {
+    'emp1': {'name': 'Jhon', 'salary': 7500},
+    'emp2': {'name': 'Emma', 'salary': 8000},
+    'emp3': {'name': 'Brad', 'salary': 2000}
+}
+
+sample_dict['emp3']['salary'] = 3000
+print(sample_dict)
 
 

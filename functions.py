@@ -4,7 +4,7 @@
 message()
 message()
 message()"""
-def seven_brothers():
+"""def seven_brothers():
     print('''
     Aapo
     Eero
@@ -14,4 +14,9 @@ def seven_brothers():
     Timo
     Tuomas''')
 
-seven_brothers()
+seven_brothers()"""
+
+"""def hello(target):
+    print("Hello", target)
+
+hello('Rooshan')"""

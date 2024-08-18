@@ -61,3 +61,11 @@ def hello(given_name):
 hello('John')
 hello('Ali')
 """
+
+"""def mean(x, y, z):
+    result = x + y + z
+    result = result / 3
+    print(f"The mean of {x}, {y}, {z} is {result}")
+
+mean(1, 2, 2)
+mean(5, 3, 1)"""

@@ -69,3 +69,12 @@ hello('Ali')
 
 mean(1, 2, 2)
 mean(5, 3, 1)"""
+
+"""def print_many_times(text, int):
+    text = 'Ali'
+    int = 4
+
+    result = text * int
+    print(result)
+
+print_many_times('Hello', 5)"""

@@ -38,3 +38,11 @@ if __name__ ==  "__main__":
 squared(3)
 squared(8)
 """
+"""def hello(name):
+    if name == 'Emily':
+        print("Hello", name)
+    else:
+        print('Hi', name)
+
+hello('Mark')
+hello('Emily')      """

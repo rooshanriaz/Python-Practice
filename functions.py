@@ -46,3 +46,10 @@ squared(8)
 
 hello('Mark')
 hello('Emily')      """
+
+"""def sum(x,y):
+    result = x + y
+    print(f"The sum of {x} and {y} is {result}")
+
+sum(1, 2)
+sum(88, 94)"""

@@ -53,3 +53,11 @@ hello('Emily')      """
 
 sum(1, 2)
 sum(88, 94)"""
+
+"""name = 'Betty'
+def hello(given_name):
+    print(f"Hello {name}")
+
+hello('John')
+hello('Ali')
+"""

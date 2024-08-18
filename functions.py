@@ -78,3 +78,11 @@ mean(5, 3, 1)"""
     print(result)
 
 print_many_times('Hello', 5)"""
+
+"""def print_many_times(text, int):
+    result = ''
+    for i in range(int):
+        result = text * i
+        print(result)
+
+print_many_times('Hello', 5)"""

@@ -32,3 +32,9 @@ if __name__ ==  "__main__":
         first_character('open')
         first_character('tribe')"""
 
+"""def squared(x):
+    print(f"The square of {x} is {x*x}")
+
+squared(3)
+squared(8)
+"""

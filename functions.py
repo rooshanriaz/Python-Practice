@@ -95,3 +95,13 @@ def sum(a, b):
 
 greet('Rooshan')
 sum(5, 10)"""
+
+"""def greet(name):
+    print('Hello there', name)
+
+def greet_many_times(name, times):
+    while times > 0:
+        greet(name)
+        times -= 1
+
+greet_many_times('Rooshan', 5)"""

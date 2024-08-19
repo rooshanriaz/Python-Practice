@@ -86,3 +86,12 @@ print_many_times('Hello', 5)"""
         print(result)
 
 print_many_times('Hello', 5)"""
+
+"""def greet(name):
+    print('Hello there', name)
+
+def sum(a, b):
+    print('The sum of the arguments is', a + b)
+
+greet('Rooshan')
+sum(5, 10)"""
